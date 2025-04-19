@@ -4,7 +4,7 @@
 #include <gtest/gtest.h>
 using namespace std;
 class WindowsWindow : public Window {
-public:
+public: 
     void render() const override {
         cout << "Rendering Windows Window\n";
     }
