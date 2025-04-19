@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <gtest/gtest.h>
-using namespace std; 
+using namespace std;
 class WindowsWindow : public Window {
 public:
     void render() const override {
